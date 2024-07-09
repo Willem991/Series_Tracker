@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84f1ce81-41ae-498a-9416-9db49d119d2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/WindowFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/AddShowButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/AgeSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ContainerSplitPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/GenreSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/GradientPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MainScrollPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MenuPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MinimiseButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MinorShowDetailsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ShowPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ShowTypeSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/TitleBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/AddShowButtonClicked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/FrameDragListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/MinimiseButtonClicked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/uidesigns/CustomSplitPaneUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/ExitButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/ExitButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/MainPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/MainPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/SidePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/SidePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/TopRowPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/TopRowPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/images/Close.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ExitButton.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TopRowPanel.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ExitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ExitButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/SidePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/TopRowPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/TopRowPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/Close.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/close.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2hGaCOwyiujQpXuYWKwIkBpDNPL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ruannieuwenhuis/Java_Projects/springboot&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ruannieuwenhuis\Java_Projects\Series_Tracker\src\main\resources" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84f1ce81-41ae-498a-9416-9db49d119d2b" name="Changes" comment="" />
+      <created>1717222741301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717222741301</updated>
+    </task>
+    <servers />
+  </component>
+</project>

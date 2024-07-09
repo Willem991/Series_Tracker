@@ -7,7 +7,7 @@ import java.awt.*;
 
 public class ExitButton {
 
-    Icon icon = new ImageIcon("./src/main/resources/images/Close.ico");
+    Icon icon = new ImageIcon("./src/main/resources/images/close.png");
     JButton exitBtn =  new JButton(icon);
 
     public ExitButton(){
