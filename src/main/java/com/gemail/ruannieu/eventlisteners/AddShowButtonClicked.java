@@ -1,8 +1,11 @@
 package com.gemail.ruannieu.eventlisteners;
 
 import com.gemail.ruannieu.Screen;
+import com.gemail.ruannieu.Tools.ConfigReader;
+import com.gemail.ruannieu.Tools.ShowPaneCreator;
 import com.gemail.ruannieu.components.ShowPanel;
 import com.gemail.ruannieu.components.ShowTypeSelector;
+import com.gemail.ruannieu.components.SidePanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,34 +17,25 @@ public class AddShowButtonClicked implements MouseListener {
     private int showAmount = 0;
     private int panelsPerRow;
     JPanel mainPanel;
-    JPanel sidePanel;
-    JFormattedTextField showTitle;
-    ShowTypeSelector showType;
+    SidePanel sidePanel;
 
-    public AddShowButtonClicked(JPanel mainPanel, JPanel sidepanel, ShowTypeSelector showType, JFormattedTextField showTitle){
+    public AddShowButtonClicked(JPanel mainPanel, SidePanel sidePanel){
         this.mainPanel = mainPanel;
-        this.sidePanel = sidepanel;
-        this.showTitle = showTitle;
-        this. showType = showType;
+        this.sidePanel = sidePanel;
 
-        System.out.println(showType);
     }
     public void mouseClicked(MouseEvent e) {
 
-        showAmount = showAmount + 1;
+        //showAmount = showAmount + 1;
+        showAmount = ConfigReader.readRowAndShowCount() + 1;
         panelsPerRow = mainPanel.getWidth()/300;
 
-        JLabel showTitleLabel = new JLabel(showTitle.getText());
-        JLabel showTypeLabel = new JLabel(showType.getSelectedItem().toString());
+        ConfigReader.writeRowAndShowCount(showAmount);
 
-        ShowPanel showPanel = new ShowPanel();
-        showPanel.add(showTitleLabel);
-        showPanel.add(showTypeLabel);
 
-        mainPanel.add(showPanel);
-        mainPanel.setPreferredSize(new Dimension((int) Screen.getScreenWidth() - 300, Math.max((int) Screen.getScreenHeight(), 500*(1+(showAmount/panelsPerRow)))));
-        mainPanel.revalidate();
-        mainPanel.repaint();
+        ShowPaneCreator showPanelCreator = new ShowPaneCreator(mainPanel, sidePanel, this);
+
+        showPanelCreator.createShowPanel();
     }
 
     public void mousePressed(MouseEvent e) {
@@ -51,5 +45,13 @@ public class AddShowButtonClicked implements MouseListener {
     public void mouseEntered(MouseEvent e) {
     }
     public void mouseExited(MouseEvent e) {
+    }
+
+    public int getShowAmount(){
+        return showAmount;
+    }
+
+    public int getPanelsPerRow(){
+        return panelsPerRow;
     }
 }

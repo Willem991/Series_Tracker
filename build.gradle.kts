@@ -1,9 +1,10 @@
 plugins {
-    id("java")
+    java
+    application
 }
 
 group = "com.gemail.ruannieu"
-version = "1.0-SNAPSHOT"
+version = "application"
 
 repositories {
     mavenCentral()
@@ -14,6 +15,27 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
+sourceSets {
+    main {
+        java {
+            setSrcDirs(listOf("src/main/java"))
+        }
+    }
+}
+
 tasks.test {
     useJUnitPlatform()
+}
+
+application {
+    // Set the main class for the application
+    mainClass.set("com.gemail.ruannieu.Main")
+}
+
+tasks.jar {
+    manifest {
+        attributes(
+                "Main-Class" to "com.gemail.ruannieu.Main"
+        )
+    }
 }

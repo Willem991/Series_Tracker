@@ -4,19 +4,20 @@ import com.gemail.ruannieu.Screen;
 import org.w3c.dom.css.RGBColor;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
+import com.gemail.ruannieu.eventlisteners.UploadButtonClicked;
 
 public class SidePanel extends JPanel{
 
     JPanel jPanelMain;
 
     private String imageURL;
+    private String picUUID = "";
     private Image backgroundImage;
     private final ShowTypeSelector showTypeSelector;
     private final MinorShowDetailsPanel showDetailsPanel;
@@ -27,7 +28,7 @@ public class SidePanel extends JPanel{
         this.jPanelMain = jPanelMain;
 
         setBackground(new Color(59,59,59));
-        setBackgroundImage("./src/main/resources/images/seriesBG.png");
+        setBackgroundImage(System.getProperty("user.dir") + "/images/seriesBG.png");
         setPreferredSize(new Dimension(500, (int) Screen.getScreenHeight()));
         setLayout(new BoxLayout( this, BoxLayout.Y_AXIS));
 
@@ -45,22 +46,22 @@ public class SidePanel extends JPanel{
             public void actionPerformed(ActionEvent e) {
                 switch ((String)showTypeSelector.getSelectedItem()){
                     case "TV Series":
-                        imageURL = "./src/main/resources/images/seriesBG.png";
+                        imageURL = System.getProperty("user.dir") + "/images/seriesBG.png";
                         break;
                     case "Anime":
-                        imageURL = "./src/main/resources/images/animeBG.png";
+                        imageURL = System.getProperty("user.dir") + "/images/animeBG.png";
                         break;
                     case "K-drama":
-                        imageURL = "./src/main/resources/images/kdramaBG.png";
+                        imageURL = System.getProperty("user.dir") + "/images/kdramaBG.png";
                         break;
                     case "Cartoon":
-                        imageURL = "./src/main/resources/images/cartoonBG.png";
+                        imageURL = System.getProperty("user.dir") + "/images/cartoonBG.png";
                         break;
                     case "Movie":
-                        imageURL = "./src/main/resources/images/movieBG.png";
+                        imageURL = System.getProperty("user.dir") + "/images/movieBG.png";
                         break;
                     case "Short Film":
-                        imageURL = "./src/main/resources/images/shortfilmBG.png";
+                        imageURL = System.getProperty("user.dir") + "/images/shortfilmBG.png";
                         break;
                     default:
                         System.out.println((String)showTypeSelector.getSelectedItem());
@@ -72,6 +73,7 @@ public class SidePanel extends JPanel{
         });
 
         showTitle = new JFormattedTextField("Enter show title");
+        //showTitle = new JFormattedTextField(System.getProperty("user.dir"));
         showTitle.setPreferredSize(new Dimension(300-20,30));
         showTitle.setMaximumSize(new Dimension(300-20,30));;
         showTitle.setHorizontalAlignment(SwingConstants.CENTER);
@@ -80,7 +82,10 @@ public class SidePanel extends JPanel{
 
         showDetailsPanel = new MinorShowDetailsPanel(this);
 
-        AddShowButton addShowButton = new AddShowButton(jPanelMain, this, showTypeSelector, showTitle, showDetailsPanel,  "Add Show");
+        JButton uploadImageBtn = new JButton("Upload Image");
+        uploadImageBtn.addMouseListener(new UploadButtonClicked(this));
+
+        AddShowButton addShowButton = new AddShowButton(jPanelMain, this,  "Add Show");
 
         TitleBar titleBar = new TitleBar(this);
         add(titleBar);
@@ -92,6 +97,8 @@ public class SidePanel extends JPanel{
         add(showTitle);
         add(Box.createVerticalStrut(10));
         add(showDetailsPanel);
+        add(Box.createVerticalStrut(10));
+        add(uploadImageBtn);
         add(Box.createVerticalStrut(40));
         add(addShowButton);
 
@@ -111,6 +118,14 @@ public class SidePanel extends JPanel{
 
     public String getAgeRating(){
         return showDetailsPanel.getAgeRating();
+    }
+
+    public String getPicUUID(){
+        return picUUID;
+    }
+
+    public void setPicUUID(String value){
+        this.picUUID = value;
     }
 
     public void setBackgroundImage(String filePath) {

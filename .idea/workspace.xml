@@ -4,40 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f1ce81-41ae-498a-9416-9db49d119d2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/WindowFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/AddShowButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/AgeSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ContainerSplitPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/GenreSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/GradientPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MainScrollPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MenuPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MinimiseButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MinorShowDetailsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ShowPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ShowTypeSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/TitleBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/AddShowButtonClicked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/FrameDragListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/MinimiseButtonClicked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/uidesigns/CustomSplitPaneUI.java" afterDir="false" />
+    <list default="true" id="d5b9a9bc-12fc-4206-a64d-fc9f0d285a08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/Tools/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/Tools/ExtractResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/Tools/ShowPaneCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/DestroyShowPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/UploadButtonClicked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/ExitButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/ExitButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/MainPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/MainPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/SidePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/SidePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/TopRowPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gemail/ruannieu/components/TopRowPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/images/Close.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ExitButton.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TopRowPanel.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AddShowButton.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AddShowButtonClicked.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/AddShowButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/AddShowButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ExitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ExitButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ShowPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/ShowPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/SidePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/TopRowPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/components/TopRowPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/Close.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/AddShowButtonClicked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gemail/ruannieu/eventlisteners/AddShowButtonClicked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -71,40 +73,105 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2hGaCOwyiujQpXuYWKwIkBpDNPL" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2j0t886MQ2Jb2UBShmDkohVGIEp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ruannieuwenhuis/Java_Projects/springboot&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ruannieuwenhuis\Java_Projects\Series_Tracker\src\main\resources" />
-    </key>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Series_Tracker [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Series_Tracker [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="classes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Series_Tracker [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Series_Tracker [build]" />
+        <item itemvalue="Gradle.Series_Tracker [clean]" />
+        <item itemvalue="Gradle.Series_Tracker [classes]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="84f1ce81-41ae-498a-9416-9db49d119d2b" name="Changes" comment="" />
-      <created>1717222741301</created>
+      <changelist id="d5b9a9bc-12fc-4206-a64d-fc9f0d285a08" name="Changes" comment="" />
+      <created>1720535662051</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1717222741301</updated>
+      <updated>1720535662051</updated>
     </task>
     <servers />
   </component>

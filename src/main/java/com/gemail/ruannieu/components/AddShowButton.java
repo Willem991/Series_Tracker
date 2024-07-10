@@ -8,14 +8,14 @@ import java.awt.*;
 public class AddShowButton extends JButton {
 
     JPanel jPanelMain;
-    public AddShowButton(JPanel jPanelMain, JPanel jPanelSide, ShowTypeSelector showType,JFormattedTextField showTitle,JPanel showDetails, String name){
+    public AddShowButton(JPanel jPanelMain, SidePanel jPanelSide, String name){
         super(name);
         this.jPanelMain = jPanelMain;
 
         setAlignmentX(Component.CENTER_ALIGNMENT);
         setPreferredSize(new Dimension(300-20,50));
         setMaximumSize(new Dimension(300-20,50));
-        addMouseListener(new AddShowButtonClicked(jPanelMain, jPanelSide, showType, showTitle));
+        addMouseListener(new AddShowButtonClicked(jPanelMain, jPanelSide));
     }
 
     /*public AddShowButton(JPanel jPanel, ImageIcon icon){
